@@ -1,0 +1,69 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+    // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-sans-<uniquifier> 
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+.container{
+  position: relative;
+  background-image: url("51rttY7a+9L.png") ;
+  padding: 25px;
+  border-radius: 28px;
+  max-width: 390px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgb(168, 115, 77);
+}
+header, 
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+
+}
+.logo img{
+  width: 48px;
+  border-radius: 13px;
+  margin-right: 10px;
+}
+h5{
+  color: rgb(244, 236, 236);
+}
+header .clip{
+  width: 60px;
+  border-radius: 13px;
+
+
+}
+h6{
+  color: white;
+}
+.container .card-detail{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
